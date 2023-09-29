@@ -17,7 +17,6 @@ function checkLogin(){
         localStorage.setItem("code", inputPassword);
         welcomePage();
     }
-    //if its not the right user it send an alert
     else{
         backPage();
     }
